@@ -1,0 +1,30 @@
+body{
+    color: red;
+}
+
+.h1{
+    font-size:  6rem;
+}
+
+.h2{
+    font-size: 4rem;
+}
+
+@media (max-width: 500px) {
+    body {
+        color: blue;
+    }
+}
+
+@media (orientation: landscape), (min-width: 500px) {
+    .h1 {
+        color: green;
+    }
+}
+
+@media (orientation: portrait) {
+    .h2 {
+        color: cyan;
+    }
+}
+
